@@ -391,12 +391,19 @@ footer p a:hover {
 .imagem-personagem5 {
     width: 200px; /* Ajuste o tamanho da imagem */
     height: 300px; /* Ajuste o tamanho da imagem */
-    margin-right: 15px; /* Espaçamento entre a imagem e o texto */
+    margin-right: -90px; /* Espaçamento entre a imagem e o texto */
 }
 .imagem-personagem6 {
     width: 200px; /* Ajuste o tamanho da imagem */
     height: 300px; /* Ajuste o tamanho da imagem */
     margin-right: 15px; /* Espaçamento entre a imagem e o texto */
+}
+a.link-amy {
+    margin-right: -80px;
+}
+a.link-shadow {
+    margin-right: -50px;
+    margin-left: 20px;
 }
 .imagem-personagem7 {
     width: 150px; /* Ajuste o tamanho da imagem */
@@ -422,10 +429,11 @@ a.link-knuckles {
     margin-left: -40px;
 }
 a.link-tails {
-    margin-right: -40px;
+    margin-right: -60px;
 }
 a.link-eggman {
-    margin-left: -20px;
+    margin-left: -10px;
+    margin-right: 90px;
 }
 .personagens li img {
     margin-bottom: 5px;     /* Distância entre a imagem e o nome */

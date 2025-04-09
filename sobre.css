@@ -1,0 +1,226 @@
+h2 {
+    color: #fff;
+    text-shadow: 
+    2px 2px 0px black,
+    -2px -2px 0px black,
+    2px -2px 0px black,
+    -2px 2px 0px black;
+}
+.sonic.banner {
+    width: 100%; /* Ajuste o valor conforme necessário */
+    height: 350px; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin-left: auto;  /* Centraliza a imagem automaticamente */
+    margin-right: auto; /* Centraliza a imagem automaticamente */
+    border-radius: 15px; 
+}
+/* Estilo para mostrar o submenu ao clicar */
+.dropdown:hover .sub-menu {
+    display: block; /* Exibe o submenu quando o item de menu é hover */
+}
+
+/* Para tornar o menu responsivo */
+@media (max-width: 768px) {
+    .menu {
+        display: block;
+        width: 100%;
+    }
+
+    .dropdown .sub-menu {
+        position: static; /* Faz o submenu fluir com o layout */
+        box-shadow: none; /* Remove a sombra do submenu */
+    }
+}
+img, h1{
+    display: inline-block;
+}
+h1{
+    font-family: "susto";
+    font-size: 50px;
+    margin-top: auto;
+    color: azure;
+    -webkit-text-stroke: 50px color(srgb rgb(255, 255, 255) rgb(255, 255, 255) rgb(255, 255, 255));
+   
+   
+}
+.sonic {
+    height: 50px; /* Ajuste a altura conforme necessário */
+    height: 50px; /* Ajuste a altura da imagem */
+    width: auto;  /* A largura será ajustada proporcionalmente */
+    margin-left: 10px; /* Adiciona um espaçamento à esquerda da imagem */
+}
+.sonic2 {
+    margin-left: 10px;
+}
+header {
+    border-radius: 15px; /* Ajuste o valor conforme necessário */
+    overflow: hidden; /* Para garantir que o conteúdo não vaze das bordas arredondadas */
+    background-color: #fff; /* Defina a cor de fundo que você preferir */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave (opcional) */
+}
+@font-face {
+    font-family: susto;
+    src: url("OldSchoolClass\ 3001.ttf") format('opentype');
+}
+.nav-links {
+    list-style: none; /* Remove a marcação padrão de lista */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove o preenchimento */
+}
+input[type=checkbox]:checked ~ .menu{
+    display: block;
+}
+#divBusca img {
+    vertical-align: middle; /* Alinha a imagem no meio do campo de texto */
+    margin-right: 10px; /* Espaço entre a lupa e o campo de texto */
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens */
+  }
+img { 
+    font-size: 50px;
+}
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+#divBusca img {
+    width: 20px; /* Define a largura da imagem */
+    height: 20px; /* Define a altura da imagem */
+    align-items: center;
+}
+  
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+  }
+  
+  #divBusca img{
+    float:left;
+  }
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.menu li {
+    padding: 5px 14px;
+    list-style: none; /* Remove o marcador da lista */
+    position: relative; /* Necessário para o dropdown */
+   
+}
+.nav2 {
+    background-color: #1e8bff;
+}
+
+
+input[type=checkbox]{
+    display: none;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(0, 86, 224);
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center; /* Alinha verticalmente os itens no centro */
+    justify-content: space-between; /* Distribui o conteúdo de forma espaçada */
+    padding: 10px; /* Adiciona um pouco de espaçamento interno */
+}
+.navbar h1 {
+    margin: 0; /* Remove qualquer margem padrão */
+}
+.nav-links {
+    margin-right: 20px; /* Dá um espaço à direita da primeira lista */
+}
+
+.nav-links a {
+    color: #fff;
+}
+input[type=checkbox]{
+    display: none;
+}
+.nav-links li {
+    padding: 5px 10px; /* Diminui o padding para reduzir o tamanho vertical */
+    margin: 0; /* Remove margens extras */
+}
+
+.nav-links li a {
+    text-decoration: none; /* Remove sublinhado */
+    color: black; /* Cor do texto */
+    display: block; /* Faz com que o link ocupe toda a área do item */
+    padding: 5px 10px; /* Diminui o padding do link */
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+ 
+body{
+    background-color: rgb(83, 195, 255);
+    font-family: 'susto', 'susto', monospace;
+    overflow: auto; /* Permite rolagem se necessário */
+    
+}
+
+
+.sub-menu {
+    display: none; /* Esconde o submenu por padrão */
+    position: absolute; /* Coloca o submenu abaixo do item principal */
+    top: 100%; /* Faz o submenu aparecer logo abaixo do item principal */
+    left: 0; /* Alinha o submenu à esquerda */
+    background-color: #fff; /* Cor de fundo do submenu */
+    border: 1px solid #ddd; /* Borda para o submenu */
+    padding: 10px;
+    min-width: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra do submenu */
+}
+
+.sub-menu li {
+    padding: 5px 10px;
+}
+
+.sub-menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sub-menu li a:hover {
+    color: #007BFF; /* Cor de hover */
+}
